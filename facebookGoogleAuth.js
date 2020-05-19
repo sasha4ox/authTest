@@ -19,7 +19,6 @@ function checkAuth() {
     else res.redirect("/login");
   });
 }
-console.log("dsdsds");
 console.log(process.env.GOOGLE_ID);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
