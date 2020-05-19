@@ -27,7 +27,6 @@ app.use(session({ secret: "you secret key" }));
 app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
-console.log("dsds");
 passport.use(
   new GoogleStrategy(
     {
